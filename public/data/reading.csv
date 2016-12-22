@@ -1,1 +1,4 @@
-rating,title,author,fname,lname,date,genre***,Secrets of an IT Jedi Master,Paul Smith,Paul,Smith,10/15/16,IT-ese*****,Mission from Mount Yoda,Paul & Hollace Davids,Paul & Hollace,Davids,11/15/16,Star Wars****,How to Ask for Food in Romanian,Andrei Georgescu,Andrei,Georgescu,12/2/16,Other nonfiction
+rating,title,author,fname,lname,date,genre
+***,Secrets of an IT Jedi Master,Paul Smith,Paul,Smith,10/15/16,IT-ese
+*****,Mission from Mount Yoda,Paul & Hollace Davids,Paul & Hollace,Davids,11/15/16,Star Wars
+****,How to Ask for More Sausages in Romanian,Andrei Georgescu,Andrei,Georgescu,12/2/16,Other nonfiction
