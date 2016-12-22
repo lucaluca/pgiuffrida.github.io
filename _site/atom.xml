@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jonathan Giuffrida</title>
+ <link href="https://lucaluca.github.io/atom.xml" rel="self"/>
+ <link href="https://lucaluca.github.io/"/>
+ <updated>2016-03-27T23:55:59-05:00</updated>
+ <id>https://lucaluca.github.io</id>
+ <author>
+   <name>Jonathan Giuffrida</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Health Viz</title>
+   <link href="https://lucaluca.github.io/project/2016/03/15/SDH/"/>
+   <updated>2016-03-15T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2016/03/15/SDH</id>
+   <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants&amp;mdash;a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors&amp;mdash;influence health and wellness. The result was an interactive scatterplot that helps users visualize any combination of these variables in Chicago&amp;#39;s 77 community areas. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://healthviz.org&quot;&gt;&lt;img src=&quot;/resources/images/healthychiviz2.png&quot; width=&quot;100%&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;caption&quot;&gt;Interactive scatterplot of social determinants and health outcomes&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-scope&quot;&gt;Project scope&lt;/h3&gt;
+
+&lt;p&gt;Social determinants of health are increasingly being recognized as critical to understanding and improving the health of communities. Some, such as air quality and access to fresh foods, have very clear effects on health; others like rent burden (spending &amp;gt;30% of income on rent), tree density, and unemployment have less clear impacts on health. &lt;/p&gt;
+
+&lt;p&gt;Because so many new associations between social determinants and health outcomes are beginning to be discovered and studied, health policy analysts and public health officials need ways to explore large numbers of possible associations in a way that is clear, easy to interpret, and not too visually complex. &lt;/p&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The solution&lt;/h3&gt;
+
+&lt;p&gt;Borrowing from &lt;a href=&quot;http://bl.ocks.org/msbarry/9911363&quot;&gt;this visualization of WHO data&lt;/a&gt;, I built an interactive scatterplot that allows users to plot Chicago&amp;#39;s community areas using any three demographic, social determinant, health behavior, or health outcomes on the X and Y axes and as the size of the points. &lt;/p&gt;
+
+&lt;p&gt;A number of features were included to meet the needs of health care professionals, the intended audience. The 100+ indicators were grouped into categories, and all variables clearly state their units. Hovering over a bubble shows which community area is represented and its values along all three selected variables, and a table below the chart shows summary statistics. The bubbles are colored according to regions of the city, and users can highlight entire regions to focus on. A few examples, such as the &amp;ldquo;Hispanic Paradox&amp;rdquo;, guide the user through some relationships between social determinants and health outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/images/healthychiviz3.png&quot; width=&quot;40%&quot;&gt;
+&lt;em&gt;Hovering over a bubble reveals information about that community area.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Health Viz is built in &lt;a href=&quot;http://d3js.org/&quot;&gt;d3.js&lt;/a&gt;, a powerful JavaScript library for visualization. Thanks to GitHub Pages, building and hosting it is 100% free, and the code is open source on &lt;a href=&quot;https://github.com/lucaluca/SDH&quot;&gt;GitHub&lt;/a&gt; and free for others to use or modify. &lt;/p&gt;
+
+&lt;p&gt;In my work at Presence Health, the scatterplot has been expanded to include information about areas across Illinois. &lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;The scatterplot has received very positive feedback from a number of public health departments, providers, collaborative groups, and research institutions. It is frequently shown in presentations and meetings as an example of an attractive yet simple way to visualize complex data, and provides internal and external business units with an intuitive and highly powerful platform for investigating aspects of community health. &lt;/p&gt;
+
+&lt;p&gt;In a city like Chicago, communities with high levels of hardship often face difficulties in many areas at the same time, such as high unemployment, poor public transportation, and reduced access to healthcare. In a sense, lightning strikes these same neighborhoods every single day. Visualizations like Health Viz can start and fuel important conversations and deeper analyses of interconnections that degrade Chicago residents&amp;#39; ability to lead healthy lives.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pindar</title>
+   <link href="https://lucaluca.github.io/project/2015/11/01/Pindar/"/>
+   <updated>2015-11-01T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/11/01/Pindar</id>
+   <content type="html">&lt;div class=&quot;quote&quot;&gt;These fragments I have shored against my ruins.
+  &lt;div class=&quot;author&quot;&gt;T.S. Eliot &lt;a href=&quot;https://pindar.pythonanywhere.com/Pindar/default/quotes/91&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As someone with experience studying and working in the humanities, I know that quotes, or small pieces of text such as poems and song lyrics, are essential to self-expression for a very large number of people. Yet it seems that the Internet lacks a good place for people to collect and analyze small pieces of text and study how they interconnect. &lt;a href=&quot;https://pindar.pythonanywhere.com&quot;&gt;Pindar&lt;/a&gt;, named for one of the first Greek lyric poets, is an attempt to create that place.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pindar.pythonanywhere.com&quot;&gt;&lt;img src=&quot;/resources/images/pindar.png&quot; width=&quot;100%&quot; style=&quot;border: 2px solid #999;&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;caption&quot;&gt;Intelligent, user-powered site for quote collection and analysis.&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-scope&quot;&gt;Project scope&lt;/h3&gt;
+
+&lt;p&gt;Pindar differs from other quote sites in a number of important ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is 100% user-powered, meaning that actual people submit and vouch for every quote&lt;/li&gt;
+&lt;li&gt;It is open source under the MIT license, making it free to use, copy, and contribute to the code base&lt;/li&gt;
+&lt;li&gt;It makes all data available via intelligent searching and an API for use in other applications&lt;/li&gt;
+&lt;li&gt;It is built from the ground up to be &lt;em&gt;smarter&lt;/em&gt;: quotes can be linked to each other on the basis of allusion, influence, and similar topics, and selected into user-created anthologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pindar also includes functionality you would expect, such as the ability to rate and comment on quotes, and edit all information submitted by other users for accuracy. &lt;/p&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The solution&lt;/h3&gt;
+
+&lt;p&gt;Pindar is built using the Python framework web2py, which helps quickly create complex sites, and hosted by PythonAnywhere. The concept and initial code was a collaboration between me and &lt;a href=&quot;https://github.com/mrbeskin&quot;&gt;mrbeskin&lt;/a&gt;, and the current version is by me. &lt;/p&gt;
+
+&lt;p&gt;All the quotes on this site link to their pages on Pindar.&lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;Pindar is built to scale, and there are many more features under development. &lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://pindar.pythonanywhere.com&quot; style=&quot;padding: 10px 20%;&quot;&gt;Check it out&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;
+To help build a better home for quotes, visit Pindar on &lt;a href=&quot;https://github.com/lucaluca/Pindar&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Valuing the Liberal Arts</title>
+   <link href="https://lucaluca.github.io/project/2015/10/26/la/"/>
+   <updated>2015-10-26T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/10/26/la</id>
+   <content type="html">&lt;p&gt;For the &lt;em&gt;Brooklyn Quarterly&lt;/em&gt;, I investigated various attempts to place a value on a liberal arts education, especially as contrasted with one in STEM alone. I interviewed Shirley Tilghman, President-emerita of Princeton, as a leader and public thinker on this topic.&lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;The article, &amp;quot;Valuing the Liberal Arts&amp;quot;, was &lt;a href=&quot;http://brooklynquarterly.org/valuing-the-liberal-arts/&quot;&gt;published&lt;/a&gt; in Issue 6 of &lt;em&gt;The Brooklyn Quarterly&lt;/em&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Someone wrote about me</title>
+   <link href="https://lucaluca.github.io/project/2015/07/01/writeup/"/>
+   <updated>2015-07-01T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/07/01/writeup</id>
+   <content type="html">&lt;p&gt;My work on the &lt;a href=&quot;/project/2015/06/01/Harris-Insider/&quot;&gt;Harris Insider&lt;/a&gt; led to a profile on the Harris School website about various efforts in data and public policy, including Harris Insider, Plenario, and the Chicago Policy Review.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://harris.uchicago.edu/news-and-events/features/student-campus-news/mastering-art-and-science-data-visualization&quot;&gt;Mastering the Art (and Science) of Data Visualization&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blobs, or Smart Clusters</title>
+   <link href="https://lucaluca.github.io/project/2015/06/15/Blobs/"/>
+   <updated>2015-06-15T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/06/15/Blobs</id>
+   <content type="html">&lt;p&gt;Research in urban science and geospatial analytics is often hampered by arbitrary choices of the spatial unit of analysis. At best, the choice of an appropriate unit of analysis forces further parameterization of an already complex problem; at worst, using arbitrarily or historically defined units like ZIP codes or Census tracts allows local variation to dilute regional variation, making it difficult or impossible to discern patterns at a macro level.&lt;/p&gt;
+
+&lt;p&gt;With the increasing availability of spatial data (especially geocoded point-level data reflecting individual observations), and advances in spatial analytics, researchers can perform their own aggregations to obviate arbitrary divisions in the data as originally collected. However, because statistically significant effects require data at a sufficiently high level of aggregation, the same tradeoff persists: either the researcher resorts to arbitrary units that obscure or magnify underlying effects, or they create their own units in an attempt to isolate regions that behave differently. This latter solution, a form of clustering, requires ever more parameters: how many clusters to create, how large to make each cluster (and how to define size), which variables on which to create the clusters, how to weight the variables relative to each other, how to evaluate the best solution, and so on. This problem has not been adequately solved for spatial analysis, especially in the context of large quantities of open municipal data and streaming data.&lt;/p&gt;
+
+&lt;p&gt;Blobs, a “smart clustering” approach that builds units of analysis on the fly based on the variables of interest, is an attempt to resolve this problem. The algorithm, built on the max-p regions implementation by researchers at Arizona State University, creates spatial clusters using only one input parameter, the minimum size of each cluster. This nonparametric approach creates clusters that fit the data as closely as possible, fully isolating regions based only on the variables of interest. Using the example of 311 calls, city managers currently collect data within units like administrative wards and ZIP codes, which dilutes true variation in the data. Smart clusters allow researchers to ask and answer better questions.&lt;/p&gt;
+
+&lt;p&gt;Blobs is part of an overall approach to start seeing the urban environment as fluid and driven by people, not streets, highways, and arbitrary lines drawn by city planners. In other words, the map changes depending on what the user cares about, with neighborhood boundaries that shift depending on only the variables of interest. This paves the way to prediction on a larger scale: we can ask not only how patterns of traffic or crime change, but how the de facto boundaries of neighborhoods and cities shift over time.&lt;/p&gt;
+
+&lt;p&gt;I was the initial developer on the Blobs project, writing the codebase, conducting statistical evaluation and testing, delivering a minimum viable product, and preparing for the product launch at the Strata conference in September 2015. &lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://github.com/ChicagoHarris/blobs&quot; style=&quot;padding: 10px 20%;&quot;&gt;See the code&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Harris Insider</title>
+   <link href="https://lucaluca.github.io/project/2015/06/01/Harris-Insider/"/>
+   <updated>2015-06-01T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/06/01/Harris-Insider</id>
+   <content type="html">&lt;h3 id=&quot;intro-paragraph-about-harris-evaluations&quot;&gt;intro paragraph about harris evaluations&lt;/h3&gt;
+
+&lt;h3 id=&quot;what&amp;#39;s-important?&quot;&gt;what&amp;#39;s important?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;easy to access and use&lt;/li&gt;
+&lt;li&gt;balance between too much and too little information&lt;/li&gt;
+&lt;li&gt;stakeholders: students, faculty, administration&lt;/li&gt;
+&lt;li&gt;fairness&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-i-make-it?&quot;&gt;how did i make it?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;drupal&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;jQuery and Highcharts&lt;/li&gt;
+&lt;li&gt;d3 splash page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what&amp;#39;s-the-impact?&quot;&gt;what&amp;#39;s the impact?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;24,000 evaluations, 1,700 courses as of spring 2016&lt;/li&gt;
+&lt;li&gt;changing the way courses are launched and reviewed&lt;/li&gt;
+&lt;li&gt;write-up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;takeaway?&quot;&gt;takeaway?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;this isn&amp;#39;t hard to do!&lt;/li&gt;
+&lt;li&gt;use language from the writeup&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plenario</title>
+   <link href="https://lucaluca.github.io/project/2014/09/23/Plenario/"/>
+   <updated>2014-09-23T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/09/23/Plenario</id>
+   <content type="html">&lt;p&gt;Plenario makes it possible to rethink the way we use open data. Instead of being constrained by the data that is accessible and usable, let’s start by formulating our questions and then find the data to answer them. Plenario makes this easy by tying together all datasets on one map and one timeline—because in the real world, everything affects everything else.&lt;/p&gt;
+
+&lt;p&gt;In my work for Brett Goldstein at the University of Chicago, I served as the product manager for the Plenario project. I helped design and coordinate its construction, communicating the vision for the project to internal developers and external stakeholders. I conducted user testing, and then developed the message, branding, and presentation for the platform&amp;#39;s highly successful September 2014 public launch, and served as main press contact after launch. &lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;http://plenar.io&quot; style=&quot;padding: 10px 20%;&quot;&gt;Read more about Plenario&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data in Public Policy</title>
+   <link href="https://lucaluca.github.io/project/2014/09/01/DIPP/"/>
+   <updated>2014-09-01T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/09/01/DIPP</id>
+   <content type="html">&lt;p&gt;During my time at Harris, I helped lead the student organization &lt;a href=&quot;http://ucdipp.org&quot;&gt;Data in Public Policy&lt;/a&gt; (whose website looks suspiciously like my own) as they began reimagining the intersection of data analytics and policy issues. &lt;/p&gt;
+
+&lt;p&gt;The organization was founded to provide an outlet for students who have, or would like to learn, data skills for careers in public service. Under my leadership, DIPP launched a number of collaborations with nonprofits and community organizations in which Harris students volunteered their data skills pro bono for a period of several months. Some of these collaborations include:&lt;/p&gt;
+
+&lt;h3 id=&quot;chicago-appleseed,-mapping-justice-project&quot;&gt;Chicago Appleseed, Mapping Justice Project&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;An interactive map to improve probation outcomes&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;DIPP partnered with Chicago Appleseed Fund for Justice to produce a prototype of a Justice Resource Map: a web-based, searchable, user-friendly map of community resources that will enable connections between Chicago area community-based service providers and justice-involved individuals. Justice-involved individuals and their probation officers can enter an address to find service providers within a specified distance, filtering on type of service provided, and whether each provider honors various insurance providers for these types of services.  DIPP and Chicago Appleseed presented the prototype to the Access to Treatment (ACT) Court staff, who are piloting the map. &lt;/p&gt;
+
+&lt;h3 id=&quot;el-hogar-del-niño,-gentrification-in-60608&quot;&gt;El Hogar del Niño, Gentrification in 60608&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;How is Pilsen changing?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Together with El Hogar del Niño, a nonprofit child-care agency, DIPP conducted a study of changing demographic trends in Pilsen in order to help the organization better anticipate the needs of its community. Findings include a relative decline in the percentage of Pilsen residents who are Hispanic, slow but steady rises in housing prices and incomes, and an increase in businesses--but a decrease in employment. DIPP presented the results to the board of El Hogar, to wide acclaim. &lt;/p&gt;
+
+&lt;h3 id=&quot;harris-insider&quot;&gt;Harris Insider&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Reimagining Harris course evaluations&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;DIPP decided to do something about the least useful page on the Harris website - and make it the most useful. Harris Insider, which launched in June 2015, synthesizes the course evaluations collected at the end of each quarter into a coherent look at the state of policy education at Harris. Students can see the feedback for individual courses, filter comments by commonly mentioned terms, find top courses along multiple metrics, and see how a course ranks compared to others at Harris. &lt;/p&gt;
+
+&lt;h3 id=&quot;chicago-appleseed,-judicial-diversity-and-voting-project&quot;&gt;Chicago Appleseed, Judicial Diversity and Voting Project&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Who picks our judges?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Also with the Chicago Appleseed Fund for Justice, DIPP conducted a statistical analysis of data on judicial quality, diversity, and elections in Cook County since 1977. Some findings include whether minority candidates are more likely to be appointed or elected to the bench, the relationship between minority status and quality, and the fact that no judge has failed to win a retention vote since the 1990s. The findings were presented to the Appleseed staff, who are using them to encourage the Illinois Supreme Court to reform the way that judges are appointed, retained, and reviewed. &lt;/p&gt;
+
+&lt;h3 id=&quot;ppsa-academic-survey-results&quot;&gt;PPSA Academic Survey Results&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;What do students think about the Harris curriculum?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Harris School Public Policy Student Association engaged DIPP members to conduct a statistical analysis of this year&amp;#39;s academic survey and report how students feel about the current Harris curriculum. They shed light on what policy areas are in high demand, how students feel about the Core, and hundreds of suggestions for improving the academic environment at Harris. DIPP delivered presentations to PPSA, the Office of Student Affairs, the Dean, and the academic deans. &lt;/p&gt;
+
+&lt;h3 id=&quot;office-of-civic-engagement,-woodlawn-housing-project&quot;&gt;Office of Civic Engagement, Woodlawn Housing Project&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;How is the housing market in Woodlawn changing?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;DIPP helped the University Office of Civic Engagement scope out an analysis of the state of Woodlawn housing stock, undertaken with the community organizations POAH and WECAN. The announcement that the Obama Presidential Library will possibly be located in Woodlawn, together with decades of shifting housing policy and gentrification pressure, added complexity to an already understudied market, and DIPP is helping to use available real estate and demographic data to shed some light on the community area just south of Harris. The project continued for a following year using groundwork laid by DIPP. &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mapping Pedestrian and Cyclist Fatalities</title>
+   <link href="https://lucaluca.github.io/project/2014/07/10/pedestrians/"/>
+   <updated>2014-07-10T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/07/10/pedestrians</id>
+   <content type="html">&lt;p&gt;Cars and trucks&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Spatial Analysis of Crime in Bogotá</title>
+   <link href="https://lucaluca.github.io/project/2014/06/30/wb/"/>
+   <updated>2014-06-30T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/06/30/wb</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Chicago Policy Review Data Visualization</title>
+   <link href="https://lucaluca.github.io/project/2014/05/01/CPR/"/>
+   <updated>2014-05-01T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/05/01/CPR</id>
+   <content type="html">&lt;p&gt;CPR data viz&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Price Inflation in Venezuela in Two Charts</title>
+   <link href="https://lucaluca.github.io/project/2014/02/24/venezuela/"/>
+   <updated>2014-02-24T23:00:00-06:00</updated>
+   <id>https://lucaluca.github.io/project/2014/02/24/venezuela</id>
+   <content type="html">&lt;p&gt;Venezuela&amp;#39;s inflation.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

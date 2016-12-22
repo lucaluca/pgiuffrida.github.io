@@ -1,0 +1,35 @@
+<div class="sidebar">
+  <div class="container sidebar">
+	<div class="sidebar-about">
+      <a href="/" class="logo"><img src="/resources/images/bunnies.jpg" width="150rem" height="150rem" /></a>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/">Home</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "About Me" %} active{% endif %}">
+        <a href="/about/">About Me</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Projects" %} active{% endif %}">
+        <a href="/projects/">Projects</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Reading" %} active{% endif %}">
+        <a href="/reading/">Reading</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Translations" %} active{% endif %}">
+        <a href="/translations/">Translations</a>
+      </li>      
+
+      <br>
+    
+      <a class="sidebar-icon" href="http://www.facebook.com/jcgiuffrida" style="float:right;"><img src="/resources/fb.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="http://www.linkedin.com/in/jcgiuffrida" style="float:right;"><img src="/resources/li.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="https://github.com/lucaluca" style="float:right;"><img src="/resources/gh.png" height="32rem" width="32rem" /></a>
+      
+    </ul>
+    
+
+  </div>
+</div>

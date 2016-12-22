@@ -1,0 +1,69 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Jonathan Giuffrida</h1>
+
+{% assign max_projects = 8 %}
+
+<p>I am a healthcare policy professional with <a href="http://instagram.com/bunny_report">two bunnies</a>.</p>
+
+
+<div class="group">
+  <div class="activity" onclick="window.location='/about';">
+    <h3><a href="/about">About Me</a></h3>
+    <div class="icon"><i class="fa fa-mortar-board fa-2x"></i></div>
+    <p>My background and experience.</p>
+  </div>
+  <div class="activity" onclick="window.location='/projects';">
+    <h3><a href="/projects">Projects</a></h3>
+    <div class="icon"><i class="fa fa-area-chart fa-2x"></i></div>
+    <p>A selection of things I&rsquo;ve made.</p>
+  </div>
+  <div class="activity" onclick="window.location='/reading';">
+    <h3><a href="/reading">Reading</a></h3>
+    <div class="icon"><i class="fa fa-book fa-2x"></i></div>
+    <p>See books I've read and poetry I've learned since 2006.</p>
+  </div>
+  <div class="activity" onclick="window.location='/translations';">
+    <h3><a href="/translations">Translations</a></h3>
+    <div class="icon"><i class="fa fa-quote-left fa-2x"></i></div>
+    <p>Sometimes I translate things for fun.</p>
+    </div>
+</div>
+
+<h3>Recent Stories</h3>
+<div class="group">
+{% assign counter = 0 %}
+{% for post in site.posts %}
+    {% if counter < max_projects %}
+    {% cycle 'open row': '<div class="clearfix">', nil %}
+    <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+      <div class="transparency">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+      </div>
+    </div>
+    {% cycle 'close row': nil, '</div>' %}
+    {% assign counter=counter | plus:1 %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<!--
+
+objective: one-stop-shop for jonny gee
+contact and links
+theme: favorite quotes
+press/written by me:
+- IEEE
+- theresa's blobs
+- sean's stuff
+- tbq (la, venezuela, cars)
+- harris profile
+use j/k to navigate through poetry
+
+
+-->
