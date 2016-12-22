@@ -1,30 +1,17 @@
-function createTOC(){
-  var i = 1;
-  $('.toc ul').empty();
-  $('.poem .title').each(function(index, t){
-    if($(this).closest('.poem').is(':visible')){
-      $(this).attr('id', 'poem' + i);
-      $('.toc ul').append('<li><a href="#poem' + i + '">' + $(this).text() + '</a>' +
-        '<span>' + $(this).closest('.poem').find('.author').text() + '</span></li>');
-    }
-    i += 1;
-  });
-}
-
 var readingTable;
 
 loadReading = function(d){
   $('.spinner').remove();
   $('#reading thead').append('<tr><th>title</th><th>author</th>' +
-    '<th>date</th><th>rating</th><th>lname</th><th>language</th></tr>');
-  d.forEach(function(b){
+    '<th>date</th><th>rating</th><th>lname</th><th>genre</th></tr>');
+  d.filter(function(d){ return d.title; }).forEach(function(b){
     var book = $('<tr></tr>');
     book.append('<td>' + b.title + '</td>');
     book.append('<td>' + b.author + '</td>');
     book.append('<td>' + b.date + '</td>');
     book.append('<td>' + '&#9733'.repeat(b.rating.length) + '</td>');
     book.append('<td>' + b.lname + '</td>');
-    book.append('<td>' + b.language + '</td>');
+    book.append('<td>' + b.genre + '</td>');
     $('#reading tbody').append(book);
   });
   readingTable = $('#reading').dataTable({

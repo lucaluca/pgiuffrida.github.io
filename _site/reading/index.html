@@ -16,7 +16,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 	
   <title>
     
-      Reading &middot; Jonathan Giuffrida
+      Reading &middot; Peter Giuffrida
     
   </title>
 
@@ -34,7 +34,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <link rel="canonical" href="https://lucaluca.github.io/reading/" />
+  <link rel="canonical" href="http://localhost:4000/reading/" />
 
 
 <!-- jQuery -->
@@ -53,13 +53,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 </head>
 
 
-  <body class="theme-base-0c layout">
+  <body class="theme-base-0e layout-reverse">
 
     <div class="sidebar">
   <div class="container sidebar">
 	<div class="sidebar-about">
-      <a href="/" class="logo"><img src="/resources/images/bunnies.jpg" width="150rem" height="150rem" /></a>
-      <p class="lead">I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.</p>
+      <a href="/" class="logo"><img src="/resources/images/peter.jpg" width="150rem" height="150rem" /></a>
+      <h3 style="text-align:center; margin-top: 10px;">Peter Giuffrida</h3>
+      <p class="lead">I build robots made out of wood to hold other robots.</p>
     </div>
 
     <ul class="sidebar-nav">
@@ -76,14 +77,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <a href="/reading/">Reading</a>
       </li>
       <li class="sidebar-nav-item">
-        <a href="/translations/">Translations</a>
+        <a href="/kids/">Kids</a>
       </li>      
 
       <br>
     
-      <a class="sidebar-icon" href="http://www.facebook.com/jcgiuffrida" style="float:right;"><img src="/resources/fb.png" height="32rem" width="32rem" /></a>
-      <a class="sidebar-icon" href="http://www.linkedin.com/in/jcgiuffrida" style="float:right;"><img src="/resources/li.png" height="32rem" width="32rem" /></a>
-      <a class="sidebar-icon" href="https://github.com/lucaluca" style="float:right;"><img src="/resources/gh.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="http://www.facebook.com/peter.giuffrida" style="float:right;"><img src="/resources/fb.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="http://www.linkedin.com/in/peter-giuffrida-4443076" style="float:right;"><img src="/resources/li.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="https://github.com/pgiuffrida" style="float:right;"><img src="/resources/gh.png" height="32rem" width="32rem" /></a>
       
     </ul>
     
@@ -95,13 +96,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Reading</h1>
-  <a href="/poetry" style="float: right; position: relative; top: -50px;"><button type="button">See Poetry</button></a>
-
-<div class="quote">For it is humanly certain that most of us remember very little of what we have read. To open almost any book a second time is to be reminded that we had forgotten well-nigh everything that the writer told us. Parting from the narrator and his narrative, we retain only a fading impression; and he, as it were, takes the book away from us and tucks it under his arm.
-  <div class="author">Siegfried Sassoon <a href="https://pindar.pythonanywhere.com/Pindar/default/quotes/95"><i class="fa fa-external-link"></i></a></div>
-</div>
-
-<p class="spinner" style="text-align: center;">
+  <p class="spinner" style="text-align: center;">
   <i class="fa fa-spinner fa-spin fa-2x"></i>
 </p>
 <table id="reading" class="display" cellspacing="0" width="100%">
@@ -115,17 +110,18 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <nav class="footer-nav" role="navigation">
   <ul>
     <li class="active"><a href="#">All</a></li>
-    <li><a href="#">English</a></li>
-    <li><a href="#">Spanish</a></li>
-    <li><a href="#">Arabic</a></li>
-    <li><a href="#">Italian</a></li>
-    <li><a href="#">French</a></li>
+    <li><a href="#">Fiction</a></li>
+    <li><a href="#">IT-ese</a></li>
+    <li><a href="#">Science</a></li>
+    <li><a href="#">Star Wars</a></li>
+    <li><a href="#">Other nonfiction</a></li>
   </ul>
 </nav>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
 <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 <script src="/public/js/jquery.dataTables.sorting.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+
 </div>
 
     <script src="/public/js/reading.js"></script>

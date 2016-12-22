@@ -3,17 +3,18 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
+gems:             [jekyll-paginate]
 
 # Setup
-title:            'Jonathan Giuffrida'
-tagline:          'Adventures in Data Analysis and Bunnies'
-description:      'I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.'
-url:              https://lucaluca.github.io
-enforce_ssl:      lucaluca.github.io
+title:            'Peter Giuffrida'
+tagline:          'The best IT professional ever'
+description:      'I build robots made out of wood to hold other robots.'
+url:              https://pgiuffrida.github.io
+enforce_ssl:      pgiuffrida.github.io
 baseurl:          /
 author:
-  name:           'Jonathan Giuffrida'
-  url:            https://lucaluca.github.io
+  name:           'Peter Giuffrida'
+  url:            https://pgiuffrida.github.io
 
 paginate:         5  # 5 posts per page
 paginate_path:    '/projects/page:num/'
@@ -22,4 +23,4 @@ paginate_path:    '/projects/page:num/'
 version:          0.1
 
 github:
-  repo:           https://github.com/lucaluca/lucaluca.github.io
+  repo:           https://github.com/pgiuffrida/pgiuffrida.github.io
